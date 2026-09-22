@@ -148,9 +148,6 @@ The campaign runs the same regression against deliberately faulty RTL. It record
 
 After an initial batch, uncovered operation/operand scenarios are converted into higher generator weights. A second batch is generated using those weights. This turns coverage from a passive report into feedback for stimulus generation.
 
-## Interview-safe description
-
-> Built a reusable coverage- and mutation-driven RTL verification framework that orchestrates directed/constrained-random stimulus, independent reference modeling, RTL simulation, protocol/assertion checks, differential scoreboarding, functional/cross coverage, failure correlation, adaptive stimulus generation, and seeded fault campaigns. The framework measures verification effectiveness through coverage closure and fault-detection/mutation scores rather than relying only on final output comparison.
 
 ## Important limitation
 
